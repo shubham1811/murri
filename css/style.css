@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  background: #fcfaf9;
+}
+
+.grid {
+  position: relative;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  margin-left: 0px;
+}
+.item-content{
+  margin-left: 0px;
+  padding: 0px;
+}
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+
+.item-content {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+
+.item.muuri-item-dragging .item-content {
+}
+
+.item.muuri-item-releasing .item-content {
+
+}
+.photo{
+  margin-left: 0px;
+  width: 80px;
+  height: 80px;
+}
